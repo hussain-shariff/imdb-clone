@@ -1,1 +1,1 @@
-### DEMO - hussain-shariff/imdb-clone-APP
+### DEMO - https://imdb-clone-app.vercel.app/
