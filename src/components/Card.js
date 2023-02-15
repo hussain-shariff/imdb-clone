@@ -5,7 +5,6 @@ export default function Card(props) {
     const [isLoading, setIsLoading] = React.useState(true);
     let cardElements = props.cardData.map((movie)=>{
         return (
-            <Link to={`/movie/${movie.id}`}>
                 <div className='card'>
                     <img src={`https://image.tmdb.org/t/p/original${movie.poster_path}` } alt="poster image" />
                     <div className="movie-details">
@@ -18,7 +17,6 @@ export default function Card(props) {
                     </div>
                     
                 </div>
-            </Link>
         )
     })
 
