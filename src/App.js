@@ -11,7 +11,6 @@ function App() {
         <Header/>
         <Routes>
           <Route index element = { <Home/> }></Route>
-          <Route path="movie/:id" element = { <h1>movie detailed page</h1> }></Route>
           <Route path="movies/:type" element = { <TopRated/> }></Route>
           <Route path="/*" element = { <h1>error</h1> }></Route>
         </Routes>
